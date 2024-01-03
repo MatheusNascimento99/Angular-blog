@@ -1,6 +1,10 @@
 # Angular Blog
 Fala pessoal!! Este foi um projeto simples, mas muito legal de realizar. Foi feito em um bootcamp da Dio que estou quase finalizando. Foi bem interessante conhecer o Angular; é um framework incrível, recomendo demais e pretendo conhecer a fundo. A ideia do projeto era realizar uma página no estilo de blog, então fiz a brincadeira de criar um 'blog do mal', onde os vilões buscam entretenimento e informação. Utilizei as fotos do Google Imagens mesmo; você pode encontrar o link para elas nos docs do projeto. Seguem algumas telas e, por último, algumas configurações do Angular.
 
+### Link hospedado
+https://angular-blog-beta-three.vercel.app/
+
+
 ## Página inicial
 ![image](https://github.com/MatheusNascimento99/Angular-blog/assets/139829100/a8561066-91f9-4611-bdeb-6cac326c732d)
 <br>
