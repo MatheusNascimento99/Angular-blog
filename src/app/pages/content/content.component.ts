@@ -1,25 +1,33 @@
-import { Component, OnInit, Input} from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
+import { dataFake } from 'src/app/components/data/dataFake';
 
 @Component({
   selector: 'app-content',
   templateUrl: './content.component.html',
-  styleUrls: ['./content.component.css']
+  styleUrls: ['./content.component.css'],
 })
 export class ContentComponent implements OnInit {
   @Input()
-  photoCover:string='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRORXVdBqL_e61Gap73fs0o9AIJgPiSVA6xVw&usqp=CAU" alt="img content'
+  photoCover: string | undefined = '';
   @Input()
-  cardTitle:string='titulo'
+  contentTitle: string = '';
   @Input()
-  cardDescription:string='descrição blablablabla'
- 
+  contentDescription: string = '';
+  private id: string | null = '0';
 
-
-  constructor(private route: ActivatedRoute) { }
+  constructor(private route: ActivatedRoute) {}
 
   ngOnInit(): void {
-    this.route.paramMap.subscribe((value) => console.log(value.get('id')));
+    this.route.paramMap.subscribe((value) => (this.id = value.get('id')));
+
+    this.setValuesToComponent(this.id);
   }
 
+  setValuesToComponent(id: string | null) {
+    const result = dataFake.filter((article) => article.id === id)[0];
+    this.photoCover = result.photoCover;
+    this.contentTitle = result.title;
+    this.contentDescription = result.description;
+  }
 }
