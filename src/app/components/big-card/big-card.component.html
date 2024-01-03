@@ -1,34 +1,17 @@
 <div class="container-big-card">
   <div class="big-card-photo">
-    <img
-      src="https://t3.ftcdn.net/jpg/02/48/42/64/360_F_248426448_NVKLywWqArG2ADUxDq6QprtIzsF82dMF.jpg"
-      width="400"
-      alt="Imagem Big Card"
-    />
+    <img src="{{ photoCover }}" width="400" alt="Imagem Big Card" />
   </div>
 
   <div class="big-card-title">
-    <a href="#">
-      <h1>Saiu a nova versão do Angular</h1>
+    <a [routerLink]="['content', Id]">
+      <h1>{{ cardTitle }}</h1>
     </a>
   </div>
 
   <div class="big-card-description">
-    <a href="#">
-      <p>
-        bla blablablablablablablablablablablabladddddddddddddddddblablablablab
-        blablablablablablablablablablablablablablablablablablablablablablablablab
-        blablablablablablablablablablablablablala
-        blablablablablablablablablablab
-        blablablablablablablablablablablablablablablablablablablablablablablablab
-        blablablablablablablablablablablablablablablablablablablablablablablabla
-        la blablablablablablablablablablablablablablablablablablablablablablabla
-        blablablablablablablablablablablablablablablablablablablablablablablablab
-        blablablablablablablablablablablablablala
-        blablablablablablablablablablab
-        blablablablablablablablablablablablablablablablablablablablablablablablab
-        blablablablablablablablablablablablablablablablablablablablablablablablab
-      </p>
-    </a>
+    <p>
+      <a [routerLink]="['content', Id]" >{{cardDescription}}<p></p></a>
+    </p>
   </div>
 </div>
