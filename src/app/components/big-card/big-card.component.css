@@ -17,14 +17,18 @@
 }
 
 .big-card-title{
+    text-align: justify;
     font-size: 15px;
     margin-top: 15px;
+    margin-bottom: 20px;
     
 }
 
-.big-card-description a p{
-    
-    margin-top: 10px;
+.big-card-description{
+    width: 420px;
+}
+
+.big-card-description p a{
     font-size: 15px;
     color: gray;
 }

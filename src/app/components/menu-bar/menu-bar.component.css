@@ -1,6 +1,14 @@
 
 .container-menu-bar{
     margin-top: 15px;
+    font-size: 20px;
+}
+
+.container-menu-bar:hover{
+    font-size: 24px;
+    color: aliceblue;
+    font-weight: bold;
+    transition: 0.4s;
 }
 
 .container-menu-bar ul{
@@ -11,4 +19,5 @@
 .container-menu-bar ul li{
     margin-right: 20px;
     list-style: none;
+    
 }

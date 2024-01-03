@@ -1,5 +1,4 @@
 .container-content{
-    border: 1px solid white;
     height: 100vh;
     width: 100%;
     display: flex;
@@ -9,15 +8,15 @@
     margin-top: 20px;
 }
 
-.content-cover{
-    border: 1px solid yellow;
-    
+.content-title h1{
+    color: #56FF95;
 }
+
 
 .content-cover img{
     border: solid 3px rgb(188, 186, 186);
-    width: 500px;
-    height: 300px;
+    width: 450px;
+    height: 280px;
     min-width: 500px;
     border-radius: 5px;
 }
@@ -25,5 +24,15 @@
 .content-description p{
     color: gray;
     margin-top: 15px;
+    width: 600px;
+    text-align: justify;
 }
 
+.container-content a{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bolder;
+    color: #56FF95;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
