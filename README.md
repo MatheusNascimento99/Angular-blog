@@ -1,4 +1,34 @@
-# AngularBlog
+# Angular Blog
+Fala pessoal!! Este foi um projeto simples, mas muito legal de realizar. Foi feito em um bootcamp da Dio que estou quase finalizando. Foi bem interessante conhecer o Angular; é um framework incrível, recomendo demais e pretendo conhecer a fundo. A ideia do projeto era realizar uma página no estilo de blog, então fiz a brincadeira de criar um 'blog do mal', onde os vilões buscam entretenimento e informação. Utilizei as fotos do Google Imagens mesmo; você pode encontrar o link para elas nos docs do projeto. Seguem algumas telas e, por último, algumas configurações do Angular.
+
+## Página inicial
+![image](https://github.com/MatheusNascimento99/Angular-blog/assets/139829100/a8561066-91f9-4611-bdeb-6cac326c732d)
+<br>
+## Página de contéudo 01
+![image](https://github.com/MatheusNascimento99/Angular-blog/assets/139829100/bf085cc0-6f75-488a-8fb0-caedfcdd154f)
+
+<br>
+
+## Página de contéudo 02
+![image](https://github.com/MatheusNascimento99/Angular-blog/assets/139829100/eed59b45-3552-44b9-b025-732738e5248a)
+
+
+<br>
+
+## Página de contéudo 03
+![image](https://github.com/MatheusNascimento99/Angular-blog/assets/139829100/787f9926-d6fe-4aa9-bd66-a5d1e145d90b)
+
+
+<br>
+
+## Página de contéudo 04
+![image](https://github.com/MatheusNascimento99/Angular-blog/assets/139829100/41fc4578-1dd4-4bed-98ef-1715a4c26c0b)
+
+
+
+
+
+## AngularBlog
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.2.
 
